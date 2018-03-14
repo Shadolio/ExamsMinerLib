@@ -41,7 +41,11 @@
     <TargetPlatform Include="WindowsPhoneApp, Version=8.1" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IGCSE\PastPaper.cs" />
+    <Compile Include="IGCSE\XtremePapers\CIE\MiningGround.cs" />
     <Compile Include="Model\Course.cs" />
+    <Compile Include="Model\IExam.cs" />
+    <Compile Include="Model\MiningGround.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
