@@ -1,0 +1,17 @@
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\bin\Debug\ExamsMinerLib.dll
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\bin\Debug\ExamsMinerLib.pdb
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\bin\Debug\ExamsMinerLib.pri
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\ExamsMinerLib.csprojResolveAssemblyReference.cache
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\ExamsMinerLib.dll
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\ExamsMinerLib.pdb
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\priconfig.xml
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\priconfig.xml.intermediate
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\layout.resfiles
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\layout.resfiles.intermediate
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\resources.resfiles
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\resources.resfiles.intermediate
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\pri.resfiles
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\pri.resfiles.intermediate
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\qualifiers.txt
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\qualifiers.txt.intermediate
+C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\MultipleQualifiersPerDimensionFound.txt
