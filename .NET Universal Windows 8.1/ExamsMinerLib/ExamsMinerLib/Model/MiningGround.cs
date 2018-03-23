@@ -13,9 +13,11 @@
  * limitations under the License.
  */
 
+using System;
+
 namespace ExamsMinerLib.Model
 {
-    public abstract class MiningGround<TDoc> where TDoc : IExam
+    public abstract class MiningGround<TResource> where TResource : IPastResource
     {
 
         /* A MiningGround contains the logic that decides the predicated URL of an exam in a specific pool.
@@ -41,6 +43,8 @@ namespace ExamsMinerLib.Model
          * A general-purpose MiningGround is one that takes a broad definition and decides in its logic what to do with it,
          * e.g. taking the 'IExam' interface itself, or a class that implements it but does not add much to it yet.
          */
+
+        public abstract Uri PredictResourceUri(TResource resource);
 
     }
 }
