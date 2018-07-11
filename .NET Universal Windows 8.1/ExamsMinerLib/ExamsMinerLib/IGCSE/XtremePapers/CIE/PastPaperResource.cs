@@ -3,7 +3,8 @@
     public class PastPaperResource : PastPaperResource<XtremePapersCIELevel, ExamSession>
     {
 
-        public ResourceTypeEnum ResourceType { get; } = ResourceTypeEnum.QuestionPaper; // Question Paper, Marking Scheme, etc...
+        // Question Paper, Marking Scheme, etc...
+        public ResourceTypeEnum ResourceType { get; set; } = ResourceTypeEnum.QuestionPaper;
 
     }
 }
