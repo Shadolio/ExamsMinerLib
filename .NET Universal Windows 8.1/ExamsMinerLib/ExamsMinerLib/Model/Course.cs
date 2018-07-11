@@ -51,5 +51,7 @@ namespace ExamsMinerLib.Model
             Level = level;
         }
 
+        public override string ToString() => $"{Name} ({Code})";
+
     }
 }

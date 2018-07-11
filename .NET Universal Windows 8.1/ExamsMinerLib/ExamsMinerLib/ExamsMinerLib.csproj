@@ -41,7 +41,18 @@
     <TargetPlatform Include="WindowsPhoneApp, Version=8.1" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IGCSE\ExamSession.cs" />
+    <Compile Include="IGCSE\ILevel.cs" />
+    <Compile Include="IGCSE\PastPaperResource.cs" />
+    <Compile Include="IGCSE\ResourceTypeEnum.cs" />
+    <Compile Include="IGCSE\SessionEnum.cs" />
+    <Compile Include="IGCSE\XtremePapers\CIE\PastPaperResource.cs" />
+    <Compile Include="IGCSE\XtremePapers\CIE\XtremePapersCIEGround.cs" />
+    <Compile Include="IGCSE\XtremePapers\CIE\XtremePapersCIELevel.cs" />
     <Compile Include="Model\Course.cs" />
+    <Compile Include="Model\IPastResource.cs" />
+    <Compile Include="Model\IExamSession.cs" />
+    <Compile Include="Model\MiningGround.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
