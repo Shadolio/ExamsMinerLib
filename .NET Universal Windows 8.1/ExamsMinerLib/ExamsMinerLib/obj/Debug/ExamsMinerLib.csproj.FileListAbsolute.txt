@@ -1,7 +1,6 @@
 C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\bin\Debug\ExamsMinerLib.dll
 C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\bin\Debug\ExamsMinerLib.pdb
 C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\bin\Debug\ExamsMinerLib.pri
-C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\ExamsMinerLib.csprojResolveAssemblyReference.cache
 C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\ExamsMinerLib.dll
 C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\ExamsMinerLib.pdb
 C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\obj\Debug\priconfig.xml

@@ -36,14 +36,32 @@ namespace ExamsMinerLib.IGCSE.XtremePapers.CIE
             // Subject path
             relativeUri += string.Format("{0} ({1})", past_paper.Course.Name, past_paper.Course.Code) + '/';
 
+            // Exam Session: "s" -> Summer, "w" -> Winter
+            SessionEnum session = past_paper.ExamSession.Session;
+            string sessionCode =
+                session == SessionEnum.Summer ? "s" :
+                session == SessionEnum.Winter ? "w" :
+                session.ToString().Substring(0, 1).ToLower();
+
+            // Year code: "yy" format
+            string yearCode =
+                new DateTime(past_paper.ExamSession.Year, 1, 1).ToString("yy");
+
+            // Resource Type Code
+            ResourceTypeEnum resType = past_paper.ResourceType;
+            string resTypeCode =
+                resType == ResourceTypeEnum.QuestionPaper ? "qp" :
+                resType == ResourceTypeEnum.MarkingScheme ? "ms" :
+                resType.ToString();
+
             // Past paper (question paper)
             relativeUri += string.Format("{0}_{1}{2}_{3}_{4}{5}.pdf",
-                past_paper.Course.Code,                                                     // 0: Course Code
-                past_paper.ExamSession.Session.ToString().ToLower().Substring(0, 1),        // 1: s = "Summer", w = "Winter"
-                new DateTime(past_paper.ExamSession.Year, 1, 1).ToString("yy"),             // 2: Year in "yy" format
-                past_paper.ResourceType == ResourceTypeEnum.QuestionPaper ? "qp" : "ms",    // 3: Paper Type
-                past_paper.Paper,                                                           // 4: Paper
-                past_paper.Variant);                                                        // 5: Variant
+                past_paper.Course.Code,                                 // 0: Course Code
+                sessionCode,                                            // 1: Session Code (e.g. 's', 'w')
+                yearCode,                                               // 2: Year Code ("yy" format)
+                resTypeCode,                                            // 3: Paper Type
+                past_paper.Paper,                                       // 4: Paper
+                past_paper.Variant);                                    // 5: Variant
 
             return new Uri(new Uri(BASE_URL, UriKind.Absolute), relativeUri);
         }
