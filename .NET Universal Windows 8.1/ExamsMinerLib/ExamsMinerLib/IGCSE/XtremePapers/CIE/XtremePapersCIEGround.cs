@@ -24,11 +24,11 @@ namespace ExamsMinerLib.IGCSE.XtremePapers.CIE
     public class XtremePapersCIEGround : MiningGround<PastPaperResource>
     {
 
-        private const string BASE_URL = "http://papers.xtremepapers.com/CIE/";
+        private const string BASE_URL = "http://papers.xtremepapers.com/CIE";
 
         public override Uri PredictResourceUri(PastPaperResource past_paper)
         {
-            string relativeUri = "";
+            string relativeUri = "/";
 
             // Level path
             relativeUri += past_paper.Course.Level.Name + '/';
@@ -59,7 +59,7 @@ namespace ExamsMinerLib.IGCSE.XtremePapers.CIE
                 past_paper.Course.Code,                                 // 0: Course Code
                 sessionCode,                                            // 1: Session Code (e.g. 's', 'w')
                 yearCode,                                               // 2: Year Code ("yy" format)
-                resTypeCode,                                            // 3: Paper Type
+                resTypeCode,                                            // 3: Paper Type (e.g. "qp", "ms")
                 past_paper.Paper,                                       // 4: Paper
                 past_paper.Variant);                                    // 5: Variant
 
