@@ -15,6 +15,12 @@
 
 namespace ExamsMinerLib.Model
 {
+    /* Usually a course is repetitive, at least to have a library of past exams,
+     * and the course and its exam are held once or multiple times a year at a certain intervals or "sessions".
+     * However, the description or timing of an Exam Session may vary from enviroment to another.
+     * 
+     * That's why this interface was made; provide an easier starting point to think about an Exam.
+     */
     public interface IExamSession
     {
 
