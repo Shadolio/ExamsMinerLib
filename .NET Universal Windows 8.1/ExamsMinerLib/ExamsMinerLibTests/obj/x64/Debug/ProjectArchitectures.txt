@@ -1,2 +1,0 @@
-C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLib\ExamsMinerLib.csproj;neutral
-C:\Users\shadi\Documents\Exams Miner\ExamsMinerLib\.NET Universal Windows 8.1\ExamsMinerLib\ExamsMinerLibTests\ExamsMinerLibTests.csproj;x64
