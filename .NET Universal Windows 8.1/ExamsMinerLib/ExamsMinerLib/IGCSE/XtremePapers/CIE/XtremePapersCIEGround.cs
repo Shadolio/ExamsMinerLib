@@ -48,11 +48,7 @@ namespace ExamsMinerLib.IGCSE.XtremePapers.CIE
                 new DateTime(past_paper.ExamSession.Year, 1, 1).ToString("yy");
 
             // Resource Type Code
-            ResourceTypeEnum resType = past_paper.ResourceType;
-            string resTypeCode =
-                resType == ResourceTypeEnum.QuestionPaper ? "qp" :
-                resType == ResourceTypeEnum.MarkingScheme ? "ms" :
-                resType.ToString();
+            string resTypeCode = past_paper.ResourceType.Code;
 
             // Past paper (question paper)
             relativeUri += string.Format("{0}_{1}{2}_{3}_{4}{5}.pdf",

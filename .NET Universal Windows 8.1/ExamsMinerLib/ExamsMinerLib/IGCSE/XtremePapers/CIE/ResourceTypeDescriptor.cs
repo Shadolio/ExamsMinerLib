@@ -15,21 +15,22 @@
 
 namespace ExamsMinerLib.IGCSE.XtremePapers.CIE
 {
-    public struct XtremePapersCIELevel : ILevel
+    public struct ResourceTypeDescriptor
     {
 
-        public string Name { get; }
+        /// <summary>
+        /// This code shall be used to form the URL. For example, "qp" or "ms".
+        /// </summary>
+        public string Code { get; }
 
-        public XtremePapersCIELevel(string name)
+        public ResourceTypeDescriptor(string code)
         {
-            Name = name;
+            Code = code;
         }
 
-        public override string ToString() => Name;
+        public static readonly ResourceTypeDescriptor QuestionPaper = new ResourceTypeDescriptor("qp");
 
-        public static readonly XtremePapersCIELevel OLevel = new XtremePapersCIELevel("Cambridge IGCSE");
-
-        public static readonly XtremePapersCIELevel ALevel = new XtremePapersCIELevel("Cambridge International A and AS Level");
+        public static readonly ResourceTypeDescriptor MarkingScheme = new ResourceTypeDescriptor("ms");
 
     }
 }
