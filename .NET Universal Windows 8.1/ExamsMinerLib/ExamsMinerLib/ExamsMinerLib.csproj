@@ -47,6 +47,7 @@
     <Compile Include="IGCSE\ResourceTypeEnum.cs" />
     <Compile Include="IGCSE\SessionEnum.cs" />
     <Compile Include="IGCSE\XtremePapers\CIE\PastPaperResource.cs" />
+    <Compile Include="IGCSE\XtremePapers\CIE\ResourceTypeDescriptor.cs" />
     <Compile Include="IGCSE\XtremePapers\CIE\XtremePapersCIEGround.cs" />
     <Compile Include="IGCSE\XtremePapers\CIE\XtremePapersCIELevel.cs" />
     <Compile Include="Model\Course.cs" />

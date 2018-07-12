@@ -3,6 +3,8 @@
     public enum ResourceTypeEnum
     {
         QuestionPaper,
-        MarkingScheme
+        MarkingScheme,
+        GradesTable,
+        ExaminerReport
     }
 }
